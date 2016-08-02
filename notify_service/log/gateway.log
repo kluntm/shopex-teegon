@@ -1,0 +1,109 @@
+[2016/07/07 19:14:18 CST] [INFO] (main.(*ServiceApp).Start:103) service app, start success.
+[2016/07/07 19:14:18 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:0
+[2016/07/07 19:14:18 CST] [INFO] (main.(*HttpNotify).MainWork:111) no data in redis
+[2016/07/07 19:14:18 CST] [INFO] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Init:51) <nil> Connected to Redis
+[2016/07/07 19:14:18 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message subscribe: http_notify
+[2016/07/07 19:14:26 CST] [INFO] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:92) <nil> Received {"type":"GET","req_num":30,"req_url":"http://192.168.121.37/api.php ","sign_method":"prism", "secret":"","param":[{"key":"notify_data","value":"{\"cmd\":\"app_apply_service\",\"data\":{\"appname\":\"test1\", \"appid\":\"1234\", \"appkey\":\"test\", \"serviceid\":\"1234\", \"eid\":\"abcdef\", \"custom_data\":\"1231\", \"status\":0}}"}]} on channel http_notify
+[2016/07/07 19:14:26 CST] [INFO] (main.(*HttpNotify).handle:146) process request, key:f710e02a-4433-11e6-8cd2-64006a912204, data:{"type":"GET","req_num":30,"req_url":"http://192.168.121.37/api.php ","sign_method":"prism", "secret":"","param":[{"key":"notify_data","value":"{\"cmd\":\"app_apply_service\",\"data\":{\"appname\":\"test1\", \"appid\":\"1234\", \"appkey\":\"test\", \"serviceid\":\"1234\", \"eid\":\"abcdef\", \"custom_data\":\"1231\", \"status\":0}}"}]}
+[2016/07/07 19:14:26 CST] [INFO] (main.(*HttpNotify).requesethandle:162) process request, key:f710e02a-4433-11e6-8cd2-64006a912204, url:http://192.168.121.37/api.php , request way:GET, num:30
+[2016/07/07 19:14:26 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:1,status:404, time:0 ms, error:
+[2016/07/07 19:14:29 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:1
+[2016/07/07 19:14:31 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:2,status:404, time:31 ms, error:
+[2016/07/07 19:14:36 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:14:36 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:3,status:404, time:17 ms, error:
+[2016/07/07 19:14:39 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:1
+[2016/07/07 19:14:41 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:4,status:404, time:0 ms, error:
+[2016/07/07 19:14:46 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:14:46 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:5,status:404, time:842 ms, error:
+[2016/07/07 19:14:49 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:1
+[2016/07/07 19:14:51 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:6,status:404, time:0 ms, error:
+[2016/07/07 19:14:56 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:14:56 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:7,status:404, time:0 ms, error:
+[2016/07/07 19:14:59 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:1
+[2016/07/07 19:15:01 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:8,status:404, time:0 ms, error:
+[2016/07/07 19:15:06 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:15:06 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:9,status:404, time:0 ms, error:
+[2016/07/07 19:15:09 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:1
+[2016/07/07 19:15:11 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:10,status:404, time:0 ms, error:
+[2016/07/07 19:15:16 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:15:16 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:11,status:404, time:0 ms, error:
+[2016/07/07 19:15:19 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:1
+[2016/07/07 19:15:21 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:12,status:404, time:0 ms, error:
+[2016/07/07 19:15:26 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:15:26 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:13,status:404, time:0 ms, error:
+[2016/07/07 19:15:29 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:1
+[2016/07/07 19:15:31 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:14,status:404, time:0 ms, error:
+[2016/07/07 19:15:36 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:15:36 CST] [INFO] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:92) <nil> Received {"type":"GET","req_num":30,"req_url":"http://192.168.121.37/api.php","sign_method":"prism", "secret":"","param":[{"key":"notify_data","value":"{\"cmd\":\"app_apply_service\",\"data\":{\"appname\":\"test1\", \"appid\":\"1234\", \"appkey\":\"test\", \"serviceid\":\"1234\", \"eid\":\"abcdef\", \"custom_data\":\"1231\", \"status\":0}}"}]} on channel http_notify
+[2016/07/07 19:15:36 CST] [INFO] (main.(*HttpNotify).handle:146) process request, key:20d3e901-4434-11e6-8cd2-64006a912204, data:{"type":"GET","req_num":30,"req_url":"http://192.168.121.37/api.php","sign_method":"prism", "secret":"","param":[{"key":"notify_data","value":"{\"cmd\":\"app_apply_service\",\"data\":{\"appname\":\"test1\", \"appid\":\"1234\", \"appkey\":\"test\", \"serviceid\":\"1234\", \"eid\":\"abcdef\", \"custom_data\":\"1231\", \"status\":0}}"}]}
+[2016/07/07 19:15:36 CST] [INFO] (main.(*HttpNotify).requesethandle:162) process request, key:20d3e901-4434-11e6-8cd2-64006a912204, url:http://192.168.121.37/api.php, request way:GET, num:30
+[2016/07/07 19:15:36 CST] [INFO] (main.(*HttpNotify).requesethandle:192) request success, url:http://192.168.121.37/api.php,request total num:30,cur num:1,status:200, time:250 ms 
+[2016/07/07 19:15:36 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:15,status:404, time:0 ms, error:
+[2016/07/07 19:15:39 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:1
+[2016/07/07 19:15:41 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:16,status:404, time:0 ms, error:
+[2016/07/07 19:15:46 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:15:47 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:17,status:404, time:0 ms, error:
+[2016/07/07 19:15:49 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:1
+[2016/07/07 19:15:52 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:18,status:404, time:0 ms, error:
+[2016/07/07 19:15:56 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:15:57 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:19,status:404, time:0 ms, error:
+[2016/07/07 19:15:59 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:1
+[2016/07/07 19:16:02 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:20,status:404, time:0 ms, error:
+[2016/07/07 19:16:02 CST] [INFO] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:92) <nil> Received {"type":"GET","req_num":30,"req_url":"http://192.168.121.37/api.php","sign_method":"prism", "secret":"","param":[{"key":"notify_data","value":"{\"cmd\":\"app_apply_service\",\"data\":{\"appname\":\"test1\", \"appid\":\"1234\", \"appkey\":\"test\", \"serviceid\":\"1234\", \"eid\":\"abcdef\", \"custom_data\":\"1231\", \"status\":0}}"}]} on channel http_notify
+[2016/07/07 19:16:02 CST] [INFO] (main.(*HttpNotify).handle:146) process request, key:30bf8ef6-4434-11e6-8cd2-64006a912204, data:{"type":"GET","req_num":30,"req_url":"http://192.168.121.37/api.php","sign_method":"prism", "secret":"","param":[{"key":"notify_data","value":"{\"cmd\":\"app_apply_service\",\"data\":{\"appname\":\"test1\", \"appid\":\"1234\", \"appkey\":\"test\", \"serviceid\":\"1234\", \"eid\":\"abcdef\", \"custom_data\":\"1231\", \"status\":0}}"}]}
+[2016/07/07 19:16:02 CST] [INFO] (main.(*HttpNotify).requesethandle:162) process request, key:30bf8ef6-4434-11e6-8cd2-64006a912204, url:http://192.168.121.37/api.php, request way:GET, num:30
+[2016/07/07 19:16:03 CST] [INFO] (main.(*HttpNotify).requesethandle:192) request success, url:http://192.168.121.37/api.php,request total num:30,cur num:1,status:200, time:251 ms 
+[2016/07/07 19:16:07 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:21,status:404, time:0 ms, error:
+[2016/07/07 19:16:09 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:1
+[2016/07/07 19:16:12 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:22,status:404, time:0 ms, error:
+[2016/07/07 19:16:12 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:16:17 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:23,status:404, time:0 ms, error:
+[2016/07/07 19:16:19 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:1
+[2016/07/07 19:16:22 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:24,status:404, time:31 ms, error:
+[2016/07/07 19:16:22 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:16:27 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:25,status:404, time:0 ms, error:
+[2016/07/07 19:16:29 CST] [INFO] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:92) <nil> Received {"type":"GET","req_num":30,"req_url":"http://192.168.121.37/api.php","sign_method":"prism", "secret":"","param":[{"key":"notify_data","value":"{\"cmd\":\"app_apply_service\",\"data\":{\"appname\":\"test1\", \"appid\":\"1234\", \"appkey\":\"test\", \"serviceid\":\"1234\", \"eid\":\"abcdef\", \"custom_data\":\"1231\", \"status\":0}}"}]} on channel http_notify
+[2016/07/07 19:16:29 CST] [INFO] (main.(*HttpNotify).handle:146) process request, key:406baaf1-4434-11e6-8cd2-64006a912204, data:{"type":"GET","req_num":30,"req_url":"http://192.168.121.37/api.php","sign_method":"prism", "secret":"","param":[{"key":"notify_data","value":"{\"cmd\":\"app_apply_service\",\"data\":{\"appname\":\"test1\", \"appid\":\"1234\", \"appkey\":\"test\", \"serviceid\":\"1234\", \"eid\":\"abcdef\", \"custom_data\":\"1231\", \"status\":0}}"}]}
+[2016/07/07 19:16:29 CST] [INFO] (main.(*HttpNotify).requesethandle:162) process request, key:406baaf1-4434-11e6-8cd2-64006a912204, url:http://192.168.121.37/api.php, request way:GET, num:30
+[2016/07/07 19:16:29 CST] [INFO] (main.(*HttpNotify).requesethandle:192) request success, url:http://192.168.121.37/api.php,request total num:30,cur num:1,status:200, time:235 ms 
+[2016/07/07 19:16:29 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:1
+[2016/07/07 19:16:32 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:26,status:404, time:0 ms, error:
+[2016/07/07 19:16:37 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:27,status:404, time:0 ms, error:
+[2016/07/07 19:16:39 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:16:39 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:1
+[2016/07/07 19:16:42 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:28,status:404, time:0 ms, error:
+[2016/07/07 19:16:47 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:29,status:404, time:0 ms, error:
+[2016/07/07 19:16:49 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:16:49 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:1
+[2016/07/07 19:16:52 CST] [INFO] (main.(*HttpNotify).requesethandle:199) reqeust failed, url:http://192.168.121.37/api.php ,request total num:30,cur num:30,status:404, time:0 ms, error:
+[2016/07/07 19:16:59 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:16:59 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:0
+[2016/07/07 19:17:09 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:17:09 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:0
+[2016/07/07 19:17:19 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:17:20 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:0
+[2016/07/07 19:17:29 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:17:30 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:0
+[2016/07/07 19:17:30 CST] [INFO] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:92) <nil> Received {"type":"POST","req_num":30,"req_url":"http://192.168.121.37/api.php","sign_method":"prism", "secret":"","param":[{"key":"notify_data","value":"{\"cmd\":\"app_apply_service\",\"data\":{\"appname\":\"test1\", \"appid\":\"1234\", \"appkey\":\"test\", \"serviceid\":\"1234\", \"eid\":\"abcdef\", \"custom_data\":\"1231\", \"status\":0}}"}]} on channel http_notify
+[2016/07/07 19:17:30 CST] [INFO] (main.(*HttpNotify).handle:146) process request, key:654d053f-4434-11e6-8cd2-64006a912204, data:{"type":"POST","req_num":30,"req_url":"http://192.168.121.37/api.php","sign_method":"prism", "secret":"","param":[{"key":"notify_data","value":"{\"cmd\":\"app_apply_service\",\"data\":{\"appname\":\"test1\", \"appid\":\"1234\", \"appkey\":\"test\", \"serviceid\":\"1234\", \"eid\":\"abcdef\", \"custom_data\":\"1231\", \"status\":0}}"}]}
+[2016/07/07 19:17:30 CST] [INFO] (main.(*HttpNotify).requesethandle:162) process request, key:654d053f-4434-11e6-8cd2-64006a912204, url:http://192.168.121.37/api.php, request way:POST, num:30
+[2016/07/07 19:17:31 CST] [INFO] (main.(*HttpNotify).requesethandle:192) request success, url:http://192.168.121.37/api.php,request total num:30,cur num:1,status:200, time:174 ms 
+[2016/07/07 19:17:40 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:0
+[2016/07/07 19:17:40 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:17:50 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:0
+[2016/07/07 19:17:51 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:18:00 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:0
+[2016/07/07 19:18:01 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:18:10 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:0
+[2016/07/07 19:18:11 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:18:20 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:0
+[2016/07/07 19:18:21 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:18:30 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:0
+[2016/07/07 19:18:31 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:18:40 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:0
+[2016/07/07 19:18:41 CST] [DEBG] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:99) <nil> Got control message Pong
+[2016/07/07 19:18:45 CST] [INFO] (git.ishopex.cn/teegon/apigateway/notify.(*WebNotify).Subscribe.func1:92) <nil> Received {"type":"POST","req_num":30,"req_url":"http://192.168.121.37/api.php","sign_method":"prism", "secret":"","param":[{"key":"notify_data","value":"{\"cmd\":\"app_apply_service\",\"data\":{\"appname\":\"test1\", \"appid\":\"1234\", \"appkey\":\"test\", \"serviceid\":\"1234\", \"eid\":\"abcdef\", \"custom_data\":\"1231\", \"status\":0}}"}]} on channel http_notify
+[2016/07/07 19:18:45 CST] [INFO] (main.(*HttpNotify).handle:146) process request, key:918f7039-4434-11e6-8cd2-64006a912204, data:{"type":"POST","req_num":30,"req_url":"http://192.168.121.37/api.php","sign_method":"prism", "secret":"","param":[{"key":"notify_data","value":"{\"cmd\":\"app_apply_service\",\"data\":{\"appname\":\"test1\", \"appid\":\"1234\", \"appkey\":\"test\", \"serviceid\":\"1234\", \"eid\":\"abcdef\", \"custom_data\":\"1231\", \"status\":0}}"}]}
+[2016/07/07 19:18:45 CST] [INFO] (main.(*HttpNotify).requesethandle:162) process request, key:918f7039-4434-11e6-8cd2-64006a912204, url:http://192.168.121.37/api.php, request way:POST, num:30
+[2016/07/07 19:18:45 CST] [INFO] (main.(*HttpNotify).requesethandle:192) request success, url:http://192.168.121.37/api.php,request total num:30,cur num:1,status:200, time:140 ms 
+[2016/07/07 19:18:50 CST] [INFO] (main.(*HttpNotify).PrintLog:126) print log, cur req:0
